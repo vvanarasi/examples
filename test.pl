@@ -3,7 +3,7 @@ use DBI;
 my $db="world";
 my $host="localhost";
 my $user="root";
-my $password="Test123";  # the root password
+my $password="";  # the root password
 
 #connect to MySQL database
 my $dbh   = DBI->connect ("DBI:mysql:database=$db:host=$host",
